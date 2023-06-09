@@ -164,11 +164,6 @@ header ul li a {
   color: #fff;
   text-decoration: none;
 }
-@media (min-width: 568px) {
-  header .header-inner img {
-    width: 20%;
-  }
-}
 @media (min-width: 768px) {
   header {
     width: 95%;
@@ -196,25 +191,18 @@ header ul li a {
   text-align: center;
   width: 100%;
   height: 100vh;
-}
-.hero .hero-inner {
-  padding: 30% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero .hero-inner h1 {
   font-size: 18px;
   font-weight: 800;
-  padding-top: 50%;
   color: #fff;
   padding-bottom: 2%;
 }
-@media (min-width: 568px) {
-  .hero .hero-inner h1 {
-    padding: 0;
-  }
-}
 @media (min-width: 768px) {
   .hero .hero-inner h1 {
-    padding-top: 30%;
     font-size: 35px;
   }
   .hero .hero-inner p {
@@ -224,16 +212,12 @@ header ul li a {
 @media (min-width: 968px) {
   .hero .hero-inner h1 {
     font-size: 47px;
-    padding-top: 20%;
   }
   .hero .hero-inner p {
     font-size: 32px;
   }
 }
 @media (min-width: 1200px) {
-  .hero .hero-inner {
-    padding-top: 25%;
-  }
   .hero .hero-inner h1 {
     font-size: 35px;
     padding-top: 0%;
